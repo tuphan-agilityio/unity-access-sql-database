@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 472988}
-  - 114: {fileID: 11419412}
+  - 114: {fileID: 11420772}
   m_Layer: 0
   m_Name: DbController
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11419412
+--- !u!114 &11420772
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -36,15 +36,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 126200}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10acfd94d9c531d40a231e9728b6e5ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 4489bf584b612a94e8071e680b28659d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secretKey: 556e6974794462546573744b6579
-  name: 50696c6f74
-  score: 59
+  secretKey: UnityDbTestKey
+  name: Tu Phan
+  score: 100
   top10Scores: []
-  saveScoreURL: 687474703a2f2f6c6f63616c686f73742f756e6974795f746573742f7361766573636f72652e7068703f
-  loadScoreURL: 687474703a2f2f6c6f63616c686f73742f756e6974795f746573742f6c6f616473636f72652e706870
+  saveScoreURL: 
+  loadScoreURL: 
   textObject: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
